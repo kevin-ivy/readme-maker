@@ -1,14 +1,14 @@
 {
-  "name": "static-site",
+  "name": "readme-maker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate ReadMe with series of prompts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "kevin-ivy",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.5.2"
   }
 }
