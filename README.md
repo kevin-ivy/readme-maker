@@ -13,15 +13,16 @@
     
   ## Installation
   
-  * Step 1: Clone the repository to your local machine.
-  * Step 2: Create a new directory for your personal use.
-  * Step 3: Copy the contents of the cloned repo into your new directory.
+  * Clone the repository to your local machine.
+  * Create a new directory for your personal use.
+  * Copy the contents of the cloned repo into your new directory.
 
   ## Usage
   
-  * Step 1: Launch your preferred terminal and navigate to the root directory for your local copy of the application.
-  * Step 2: Run the command "node index"
+  * Launch your preferred terminal and navigate to the root directory for your local copy of the application.
+  * Run the command "node index"
   * Answer the questions as they are prompted.
+  * Your README.md file will be found in the dist folder once you are complete.
 
   ## Contribute
   
