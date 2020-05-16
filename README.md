@@ -25,7 +25,7 @@
 
   ## Contribute
   
-  * Do not include profanity, sexual innuendo, poltically/racially charged wording.
+  * Do not include profanity, sexual innuendo, poltically/racially charged comments.
   * Keep comments and suggestions concise and free of spelling errors.
 
   ## Tests
