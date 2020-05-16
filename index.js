@@ -108,12 +108,28 @@ const projectData = projectDetails => {
         {
             type: 'input',
             name: 'contribute',
-            message: '(Optional) Please include contribution guidelines for your application (Separate guidelines with the | character):'
+            message: 'Please include contribution guidelines for your application (Separate guidelines with the | character):',
+            validate: contributeInput => {
+                if (contributeInput) {
+                    return true;
+                } else {
+                    console.log('You must include contribution guidelines for your application.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'test',
-            message: '(Optional) What tests are included with your application?'
+            message: 'What tests are included with your application?',
+            validate: testInput => {
+                if (testInput) {
+                    return true;
+                } else {
+                    console.log('You must include test information. If none are available, please note so.');
+                    return false;
+                }
+            }
         },
         {
             type: 'list',

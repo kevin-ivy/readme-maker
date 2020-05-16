@@ -6,7 +6,7 @@ function generateInstall(install) {
   //create individual installation steps from array
   const listSteps = installSteps.map(eachStep =>{
     return `
-    * ${eachStep.trim()}`
+  * ${eachStep.trim()}`
   }).join('');
 
   return listSteps;
@@ -20,7 +20,7 @@ function generateUsage(usage) {
   //create individual usage steps from array
   const listSteps = usageSteps.map(eachStep =>{
     return `
-    * ${eachStep.trim()}`
+  * ${eachStep.trim()}`
   }).join('');
 
   return listSteps;
@@ -34,7 +34,7 @@ function generateContribute(contribute) {
   //create individual contribution steps from array
   const listSteps = contributeSteps.map(eachStep =>{
     return `
-    * ${eachStep.trim()}`
+  * ${eachStep.trim()}`
   }).join('');
 
   return listSteps;
@@ -48,7 +48,7 @@ function generateTest(test) {
   //create individual test steps from array
   const listSteps = testSteps.map(eachStep =>{
     return `
-    * ${eachStep.trim()}`
+  * ${eachStep.trim()}`
   }).join('');
 
   return listSteps;
@@ -62,39 +62,36 @@ function generateMarkdown(data) {
 
   return `
   # ${other.title}
-    ${other.description}
+  ${other.description}
 
   ## Table of Contents
-  ---
+
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
+  * [Contribute](#contribute)
   * [Tests](#tests)
-  * [Licenses](#licenses)
+  * [License](#license)
   * [Questions](#questions)
-   
+    
   ## Installation
-  ---
   ${generateInstall(install)}
 
   ## Usage
-  ---
   ${generateUsage(usage)}
 
   ## Contribute
-  ---
   ${generateContribute(contribute)}
 
-  ## Test
-  ---
+  ## Tests
   ${generateTest(test)}
 
+  ## License
+  Licensed under the ${other.license} license.
+
   ## Questions
-  ---
-    If you have any questions, concerns, or suggestions, you can reach me by emailing me at [${other.email}]. 
-    
-    You can also view more of my applications on my [GitHub page](https://github.com/${other.github})
-  `;
+  If you have any questions, concerns, or suggestions, you can reach me by emailing me at ${other.email}. 
+      
+  You can also view more of my applications on my [GitHub page](https://github.com/${other.github})`;
 };
 
 module.exports = generateMarkdown;
