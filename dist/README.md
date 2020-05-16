@@ -1,6 +1,6 @@
 
-  # README Maker
-  Generate a clean, professional looking README file by simply answering a few short questions.
+  # k [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  k
 
   ## Table of Contents
 
@@ -8,29 +8,29 @@
   * [Usage](#usage)
   * [Contribute](#contribute)
   * [Tests](#tests)
-  * [Licenses](#licenses)
+  * [License](#license)
   * [Questions](#questions)
     
   ## Installation
   
-  * Step 1: Clone the git repository to your local machine.
-  * Step 2: Create a local directory and copy the files into your directory.
+  * kl
 
   ## Usage
   
-  * Step 1: Navigate to the root directory in your command tool of choice.
-  * Step 2: Run "node index"
-  * Step 3: Answer the questions as they are prompted.
+  * k
 
   ## Contribute
   
-  * No profanity, sexual innuendo, or politically charged comments.
+  * k
 
   ## Tests
   
-  * None included at this time
+  * l
+
+  ## License
+  Licensed under the GNU AGPLv3 license.
 
   ## Questions
-  If you have any questions, concerns, or suggestions, you can reach me by emailing me at kevindivy@gmail.com.
+  If you have any questions, concerns, or suggestions, you can reach me by emailing me at k. 
       
-  You can also view more of my applications on my [GitHub page](https://github.com/kevin-ivy)
+  You can also view more of my applications on my [GitHub page](https://github.com/k)

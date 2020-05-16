@@ -54,6 +54,22 @@ function generateTest(test) {
   return listSteps;
 };
 
+//create and display license badge
+function showLicenseBadge(license) {
+  if (license === 'MIT') {
+    chosenBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+  } else if(license === 'Mozilla') {
+    chosenBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+  } else if(license === 'Apache') {
+    chosenBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+  } else if(license === 'Unilicense') {
+    chosenBadge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)';
+  } else if(license === 'GNU AGPLv3') {
+    chosenBadge = '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)';
+  }
+  return chosenBadge;
+};
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
@@ -61,7 +77,7 @@ function generateMarkdown(data) {
   const {install, usage, contribute, test, ...other} = data;
 
   return `
-  # ${other.title}
+  # ${other.title} ${showLicenseBadge(other.license)}
   ${other.description}
 
   ## Table of Contents

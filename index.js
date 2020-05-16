@@ -135,7 +135,7 @@ const projectData = projectDetails => {
             type: 'list',
             name: 'license',
             message: 'Please select the license for your application:',
-            choices: ['MIT', 'Unilicense', 'Boost', 'Apache', 'GNU AGPLv3'],
+            choices: ['MIT', 'Mozilla', 'Unilicense', 'Apache', 'GNU AGPLv3'],
             default: 'MIT'
         }
     ])
