@@ -2,7 +2,7 @@
   # Easy README Maker [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   Quickly generate a clean, professional quality README file by simply answering a few questions about your application.
   
-  ![ReadMe Example Video](./utils/thumbnail.png)
+  [Link to Example Video](https://drive.google.com/file/d/15d-EXK9n2o0hNfcklG4lK76goqgdPChm/view)
 
   ## Table of Contents
 
@@ -16,8 +16,8 @@
   ## Installation
   
   * Clone the repository to your local machine.
-  * Create a new directory for your personal use.
-  * Copy the contents of the cloned repo into your new directory.
+  * (Optional) Create a new directory for your personal use.
+  * (Optional) Copy the contents of the cloned repo into your new directory.
 
   ## Usage
   
