@@ -16,8 +16,8 @@
   ## Installation
   
   * Clone the repository to your local machine.
-  * Create a new directory for your personal use.
-  * Copy the contents of the cloned repo into your new directory.
+  * (Optional) Create a new directory for your personal use.
+  * (Optional) Copy the contents of the cloned repo into your new directory.
 
   ## Usage
   
