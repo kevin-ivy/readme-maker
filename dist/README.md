@@ -14,7 +14,6 @@
   ## Installation
   
   * Clone the repo
-  * Make your own directory
 
   ## Usage
   
@@ -25,7 +24,7 @@
 
   ## Contribute
   
-  * Don't be a dick
+  * Put contribution details here.
 
   ## Tests
   
