@@ -1,6 +1,6 @@
 
-  # Easy README Maker [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-  Quickly generate a clean, professional quality README file by simply answering a few questions about your application.
+  # Test Program [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  This is to test the use of this application
 
   ## Table of Contents
 
@@ -13,27 +13,26 @@
     
   ## Installation
   
-  * Step 1: Clone the repository to your local machine.
-  * Step 2: Create a new directory for your personal use.
-  * Step 3: Copy the contents of the cloned repo into your new directory.
+  * Clone the repo
+  * Make your own directory
 
   ## Usage
   
-  * Step 1: Launch your preferred terminal and navigate to the root directory for your local copy of the application.
-  * Step 2: Run the command "node index"
-  * Answer the questions as they are prompted.
+  * Launch terminal
+  * Go to root
+  * Run node index
+  * Follow on screen instructions
 
   ## Contribute
   
-  * Do not include profanity, sexual innuendo, poltically/racially charged wording.
-  * Keep comments and suggestions concise and free of spelling errors.
+  * Don't be a dick
 
   ## Tests
   
-  * No tests to display at this time.
+  * No test
 
   ## License
-  Licensed under the Unilicense license.
+  Licensed under the Mozilla license.
 
   ## Questions
   If you have any questions, concerns, or suggestions, you can reach me by emailing me at kevindivy@gmail.com. 
