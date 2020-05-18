@@ -1,8 +1,6 @@
 
-  # Easy README Maker [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-  Quickly generate a clean, professional quality README file by simply answering a few questions about your application.
-  
-  [Link to Example Video](https://drive.google.com/file/d/15d-EXK9n2o0hNfcklG4lK76goqgdPChm/view)
+  # Test Application [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  This is a test of the README Maker to ensure that it is working properly.
 
   ## Table of Contents
 
@@ -15,25 +13,23 @@
     
   ## Installation
   
-  * Clone the repository to your local machine.
-  * (Optional) Create a new directory for your personal use.
-  * (Optional) Copy the contents of the cloned repo into your new directory.
+  * Step 1 Go to the Directory
+  * Step 2 Launch the file
+  * Step 3 Follow the onscreen guide
 
   ## Usage
   
-  * Launch your preferred terminal and navigate to the root directory for your local copy of the application.
-  * Run the command "node index"
-  * Answer the questions as they are prompted.
-  * Your README.md file will be found in the dist folder once you are complete.
+  * Locate the exe file in the directory
+  * Launch the exe file
 
   ## Contribute
   
-  * Do not include profanity, sexual innuendo, poltically/racially charged comments.
-  * Keep comments and suggestions concise and free of spelling errors.
+  * No profanity, sexual innuendo, or racially charged language.
+  * Keep all contributions on topic and free of spelling errors.
 
   ## Tests
   
-  * No tests to display at this time.
+  * No tests at this time.
 
   ## License
   Licensed under the Unilicense license.
