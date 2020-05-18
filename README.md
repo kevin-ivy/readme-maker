@@ -2,7 +2,7 @@
   # Easy README Maker [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   Quickly generate a clean, professional quality README file by simply answering a few questions about your application.
   
-  ![Link to Example Video](https://drive.google.com/file/d/15d-EXK9n2o0hNfcklG4lK76goqgdPChm/view)
+  [Link to Example Video](https://drive.google.com/file/d/15d-EXK9n2o0hNfcklG4lK76goqgdPChm/view)
 
   ## Table of Contents
 
