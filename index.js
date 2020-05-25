@@ -80,6 +80,12 @@ const projectData = projectDetails => {
             }
         },
         {
+            type: 'checkbox',
+            name: 'languages',
+            messsage: 'What languages did you create this application with? (Check all that apply)',
+            choices: ['Javascript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        },
+        {
             type: 'input',
             name: 'install',
             message: 'Please enter the steps to install your application (Separate steps with the | character):',

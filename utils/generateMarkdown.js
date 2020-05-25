@@ -4,7 +4,7 @@ function generateInstall(install) {
   const installSteps = install.split('|');
 
   //create individual installation steps from array
-  const listSteps = installSteps.map(eachStep =>{
+  const listSteps = installSteps.map(eachStep => {
     return `
   * ${eachStep.trim()}`
   }).join('');
@@ -29,6 +29,7 @@ function generateUsage(usage) {
 //create the constribute section
 function generateContribute(contribute) {
   //divide steps and sort into an array
+  console.log(contribute);
   const contributeSteps = contribute.split('|');
 
   //create individual contribution steps from array
@@ -54,6 +55,43 @@ function generateTest(test) {
   return listSteps;
 };
 
+//create and display badges for the language used
+function showLanguageBadge(languages) {
+  console.log(languages);
+
+  const languageBadges = languages.map(eachLanguage => {
+    if (eachLanguage === 'Javascript') {
+      return ` [![Javascript](https://img.shields.io/badge/-Javascript-red)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'HTML') {
+      return ` [![HTML](https://img.shields.io/badge/-HTML-success)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'CSS') {
+      return ` [![CSS](https://img.shields.io/badge/-CSS-blue)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'ES6') {
+      return ` [![HTML](https://img.shields.io/badge/-ES6-yellow)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'jQuery') {
+      return ` [![HTML](https://img.shields.io/badge/-jQuery-orange)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'Bootstrap') {
+      return ` [![HTML](https://img.shields.io/badge/-Bootstrap-blueviolet)](https://shields.io/) `
+    }
+
+    if (eachLanguage === 'Node') {
+      return ` [![HTML](https://img.shields.io/badge/-Node-lightgrey)](https://shields.io/) `
+    }
+  }).join('');
+
+  return languageBadges;
+};
+
 //create and display license badge
 function showLicenseBadge(license) {
   if (license === 'MIT') {
@@ -72,12 +110,13 @@ function showLicenseBadge(license) {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
 
-  const {install, usage, contribute, test, ...other} = data;
+  const {install, usage, contribute, test, languages, ...other} = data;
 
   return `
-  # ${other.title} ${showLicenseBadge(other.license)}
+  # ${other.title} 
+  ${showLicenseBadge(other.license)} ${showLanguageBadge(languages)}
+
   ${other.description}
 
   ## Table of Contents
