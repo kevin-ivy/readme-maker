@@ -1,8 +1,8 @@
 
-  # Test Program 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Javascript](https://img.shields.io/badge/-Javascript-red)](https://shields.io/) [![HTML](https://img.shields.io/badge/-HTML-success)](https://shields.io/)    [![CSS](https://img.shields.io/badge/-CSS-blue)](https://shields.io/)    [![HTML](https://img.shields.io/badge/-ES6-yellow)](https://shields.io/)    [![HTML](https://img.shields.io/badge/-jQuery-orange)](https://shields.io/)    [![HTML](https://img.shields.io/badge/-Bootstrap-blueviolet)](https://shields.io/)    [![HTML](https://img.shields.io/badge/-Node-lightgrey)](https://shields.io/)  
+  # Employee Roster Generator 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![HTML](https://img.shields.io/badge/-ES6-yellow)](https://shields.io/)  [![HTML](https://img.shields.io/badge/-Bootstrap-blueviolet)](https://shields.io/)  [![HTML](https://img.shields.io/badge/-Node-lightgrey)](https://shields.io/) 
 
-  This is a test
+  Rather than slaving over a hot spreadsheet, simply answer a few quick questions about your employees to generate a sleak, clean web document that displays the entered details.
 
   ## Table of Contents
 
@@ -15,24 +15,32 @@
     
   ## Installation
   
-  * Test
+  * Go to GitHub repository
+  * Cpy link for repo
+  * Navigate to directory using your preferred terminal
+  * Use git clone {html here} to clone a copy to your local drive
 
   ## Usage
   
-  * Test
+  * Launch the directory with your preferred terminal
+  * Run "node index"
+  * Follow the on screen prompts to generate your site.
 
   ## Contribute
   
-  * 1
+  * No profanity, sexual innuendo, or racially charged comments
+  * Keep additions free of spelling-errors and properly commented
 
   ## Tests
   
-  * 1
+  * Run "npm test"
+  * Tests will run for the following classeS: Employee, Manager, Engineer, and Intern
+  * Tests will ensure functionality for the following methods: getName(), getRole(), getId(), getEmail(), getGithub(), and getSchool()
 
   ## License
   Licensed under the MIT license.
 
   ## Questions
-  If you have any questions, concerns, or suggestions, you can reach me by emailing me at kevin. 
+  If you have any questions, concerns, or suggestions, you can reach me by emailing me at kevindivy@gmail.com. 
       
-  You can also view more of my applications on my [GitHub page](https://github.com/kevin)
+  You can also view more of my applications on my [GitHub page](https://github.com/kevin-ivy)

@@ -83,7 +83,7 @@ const projectData = projectDetails => {
             type: 'checkbox',
             name: 'languages',
             messsage: 'What languages did you create this application with? (Check all that apply)',
-            choices: ['Javascript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+            choices: ['Javascript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'MySQL']
         },
         {
             type: 'input',

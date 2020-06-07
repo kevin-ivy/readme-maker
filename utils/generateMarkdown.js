@@ -87,6 +87,10 @@ function showLanguageBadge(languages) {
     if (eachLanguage === 'Node') {
       return ` [![HTML](https://img.shields.io/badge/-Node-lightgrey)](https://shields.io/) `
     }
+
+    if (eachLanguage === 'MySQL') {
+      return `[![MySQL](https://img.shields.io/badge/-MySQL-blueviolet)](https://shields.io/)`
+    }
   }).join('');
 
   return languageBadges;
